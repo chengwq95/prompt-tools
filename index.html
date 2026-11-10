@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prompt Tools</title>
+<meta name="description" content="A collection of browser tools for writing AI image and video prompts.">
+<style>
+  :root { --bg:#f6f4ef; --fg:#1c1b19; --muted:#6b675f; --card:#ffffff; --line:#e2ded5; --accent:#1c1b19; --accent-fg:#ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141412; --fg:#f1eee8; --muted:#a29d93; --card:#1e1d1a; --line:#33312c; --accent:#f1eee8; --accent-fg:#141412; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Noto Sans SC",sans-serif; line-height:1.55; }
+  main { max-width:960px; margin:0 auto; padding:72px 24px 96px; }
+  h1 { font-size:clamp(2rem,6vw,3.25rem); line-height:1.1; margin:0 0 16px; letter-spacing:-0.02em; }
+  .lead { color:var(--muted); font-size:1.125rem; max-width:60ch; margin:0 0 48px; }
+  .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fill,minmax(270px,1fr)); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:24px; display:flex; flex-direction:column; }
+  .card h2 { font-size:1.2rem; margin:0 0 8px; }
+  .card p { color:var(--muted); margin:0 0 20px; flex:1; }
+  .links { display:flex; gap:10px; flex-wrap:wrap; }
+  .links a { text-decoration:none; color:var(--fg); border:1px solid var(--line); border-radius:999px; padding:8px 16px; font-size:0.95rem; }
+  .links a.primary { background:var(--accent); color:var(--accent-fg); border-color:var(--accent); }
+  .links a:hover, .links a:focus-visible { outline:2px solid var(--fg); outline-offset:2px; }
+  footer { margin-top:56px; color:var(--muted); font-size:0.9rem; }
+  footer a { color:inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Prompt Tools</h1>
+  <p class="lead">A collection of browser tools for writing AI image and video prompts.</p>
+  <section class="grid">
+      <article class="card">
+        <h2>AI Image Prompt Builder</h2>
+        <p>Build English or Chinese image prompts from four blocks: Time, Subject, Scene, and Style.</p>
+        <div class="links"><a class="primary" href="https://ai-image-prompt-builder.pages.dev/">Open</a><a href="https://github.com/chengwq95/ai-image-prompt-builder">Source</a></div>
+      </article>
+      <article class="card">
+        <h2>AI Video Prompt Builder</h2>
+        <p>Create copy-ready English prompts for character images, director scripts, still images, and image-to-video shots.</p>
+        <div class="links"><a class="primary" href="https://ai-video-prompt-builder.pages.dev/">Open</a><a href="https://github.com/chengwq95/ai-video-prompt-builder">Source</a></div>
+      </article>
+  </section>
+  <footer>By Cheng Wei Quan · <a href="https://github.com/chengwq95">github.com/chengwq95</a></footer>
+</main>
+</body>
+</html>

@@ -2,6 +2,8 @@
 
 A collection of browser tools for writing AI image and video prompts.
 
+**Live:** https://chengwq95.github.io/prompt-tools/
+
 ## Use online
 
 | Tool | Description | Open | Source |
@@ -14,3 +16,7 @@ A collection of browser tools for writing AI image and video prompts.
 This repository is a simple directory for the tools above. Each tool remains independently developed and hosted in its own repository.
 
 Want to use a tool locally? Clone its repository and open its `index.html` file in a browser.
+
+## License
+
+[MIT](LICENSE)
